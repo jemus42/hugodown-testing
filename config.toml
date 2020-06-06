@@ -9,9 +9,8 @@ ignoreFiles = [
   "\\.knit\\.md$", "\\.utf8\\.md$", "\\.tmp\\.html$" # Knitr temp files just in case
   ]
 
-# For package shortcode (configurability++;)
-# pkg_format = "<i class='fas fa-box'></i> {%s}"
 [params]
+  # For package shortcode (configurability++;)
   pkg_format = "{%s}"
   pkg_icon_cran = "<i class='fab fa-r-project'></i>"
   pkg_icon_git = "<i class='fab fa-git-alt'></i>"

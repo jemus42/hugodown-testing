@@ -14,6 +14,7 @@ output: hugodown::hugo_document
 
 [**Quick link to plain markdown post**](/posts/2020-06-06-plain/)
 
+## Code
 
 ```{r setup}
 knitr::opts_chunk$set(
@@ -30,9 +31,6 @@ knitr::opts_chunk$set(
 ```
 
 This is a test of {{< pkg "hugodown" >}}.  
-
-
-## R Code
 
 ### Code with/-out Output
 
@@ -129,5 +127,3 @@ sessioninfo::session_info()$packages
 ```
 
 </details>
-
-
