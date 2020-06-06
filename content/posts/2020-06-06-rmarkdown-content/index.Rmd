@@ -12,6 +12,9 @@ series: []
 output: hugodown::hugo_document
 ---
 
+[**Quick link to the other post**](/posts/2020-06-06-plain/)
+
+
 ```{r setup}
 knitr::opts_chunk$set(
   fig.path = "plots/", # for leaf bundles to work nicely

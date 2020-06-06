@@ -8,7 +8,23 @@ series:
   - "Hugo"
 ---
 
+[**Quick link to the other post**](/posts/rmarkdown-content/)
+
 ## Code
+
+```r
+knitr::opts_chunk$set(
+  fig.path = "plots/", # for leaf bundles to work nicely
+  cache = TRUE,
+  cache.path = "post_cache/", # (for leaf bundles, cache in post directory)
+  fig.retina = 2,
+  fig.width = 8.5,
+  echo = TRUE,
+  message = FALSE, warning = FALSE, error = FALSE,
+  fig.align = "center",
+  out.width = "95%"
+)
+```
 
 Inline `code`
 

@@ -10,9 +10,11 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: 588366d62b61c4f6
+rmd_hash: b37bced2b720acc8
 
 ---
+
+[**Quick link to the other post**](/posts/2020-06-06-plain/)
 
 <pre class='chroma'><span class='k'>knitr</span>::<span class='k'><a href='https://rdrr.io/pkg/knitr/man/opts_chunk.html'>opts_chunk</a></span><span class='o'>$</span><span class='nf'>set</span>(
   fig.path = <span class='s'>"plots/"</span>, <span class='c'># for leaf bundles to work nicely</span>
