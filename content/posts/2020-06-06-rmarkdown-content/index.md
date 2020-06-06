@@ -10,7 +10,7 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: 08398c4b84765473
+rmd_hash: 996b33d672eaffdc
 
 ---
 
@@ -77,7 +77,7 @@ Inline
 
 Inline shortcode without tweaks: Hello {{&lt; pkg "hugodown" &gt;}}.
 
-Using `blogdown::shortcode` is not well suited here in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think.
+Using `blogdown::shortcode` is not well suited in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this.
 
 Block-level
 -----------

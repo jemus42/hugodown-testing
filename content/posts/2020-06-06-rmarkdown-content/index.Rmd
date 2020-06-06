@@ -69,7 +69,7 @@ ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
 
 Inline shortcode without tweaks: Hello {{< pkg "hugodown" >}}.
 
-Using `blogdown::shortcode` is not well suited here in `r blogdown::shortcode("pkg", "hugodown")`-land I think. 
+Using `blogdown::shortcode` is not well suited in `r blogdown::shortcode("pkg", "hugodown")`-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this. 
 
 ## Block-level
 
