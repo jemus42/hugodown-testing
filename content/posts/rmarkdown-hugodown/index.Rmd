@@ -1,0 +1,129 @@
+---
+title: Blogdown .Rmarkdown
+author: jemus42
+date: '2020-06-06'
+slug: blogdown-rmarkdown
+categories: ["Rmarkdown", "blogdown", ".Rmarkdown"]
+tags: []
+description: ''
+draft: no
+externalLink: ''
+series: []
+output: hugodown::hugo_document
+---
+
+[**Quick link to plain markdown post**](/posts/2020-06-06-plain/)
+
+## Code
+
+```{r setup}
+knitr::opts_chunk$set(
+  fig.path = "plots/", # for leaf bundles to work nicely
+  cache = TRUE,
+  cache.path = "post_cache/", # (for leaf bundles, cache in post directory)
+  fig.retina = 2,
+  fig.width = 8.5,
+  echo = TRUE,
+  message = FALSE, warning = FALSE, error = FALSE,
+  fig.align = "center",
+  out.width = "95%"
+)
+```
+
+This is a test of {{< pkg "hugodown" >}}.  
+
+### Code with/-out Output
+
+```{r}
+my_packages <- rownames(installed.packages())
+n_packages <- length(my_packages)
+```
+
+And some filler text between chunks.
+
+```{r}
+n_packages
+
+tail(tibble::enframe(my_packages))
+```
+
+
+### Plots
+
+- The entire chunk is contained in `<pre>` tags :(
+- Tabular display of code with line numbers is set in config, but not applied here
+
+```{r a-plot}
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE)
+```
+
+### Table
+
+```{r a-table}
+library(dplyr)
+sessioninfo::session_info()$packages %>%
+  as_tibble() %>%
+  filter(package %in% c("hugodown", "dplyr", "ggplot2")) %>% 
+  select(package, loadedversion, source) %>%
+  knitr::kable(caption = "A neato little table")
+```
+
+
+## Shortcodes
+
+## Inline
+
+Inline shortcode without tweaks: Hello {{< pkg "hugodown" >}}.
+
+Using `blogdown::shortcode` is not well suited in `r blogdown::shortcode("pkg", "hugodown")`-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this. 
+
+## Block-level
+
+Here's a figure shortcode:
+
+{{< figure src="plots/a-plot-1.png" alt="" caption="" >}}
+
+The same shortcode with `blogdown::shortcode`
+
+`r blogdown::shortcode("figure", src="plots/a-plot-1.png")`
+
+## Footnotes
+
+This is a footnote in `^[inline format]` as used by [pandoc](https://pandoc.org/MANUAL.html#footnotes) but not supported by [Hugo's Goldmark](https://gohugo.io/getting-started/configuration-markup/#goldmark) ^[Hello there].  
+
+Here's a reference-style footnote [^ref].
+
+[^ref]: Something goldmark and pandoc can agree on.
+
+
+## Math and stuff
+
+(Rmd: Have not applied fixes to make it work yet)
+
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+
+$$
+\sum_{n=1}^{\infty} 2^{-n} = 1
+$$
+
+| Heading | Another heading |
+| :----:  | :-------------: |
+|  text   |      text       |
+|  text   |      text       |
+|  text   |      text       |
+
+
+## Session Info
+
+<details>
+<summary>Session Info</summary>
+
+```{r sessioninfo}
+sessioninfo::session_info()$packages
+```
+
+</details>
