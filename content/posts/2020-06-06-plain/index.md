@@ -8,7 +8,7 @@ series:
   - "Hugo"
 ---
 
-[**Quick link to the other post**](/posts/rmarkdown-content/)
+[**Quick link to the RMarkdown post**](/posts/rmarkdown-content/)
 
 ## Code
 
@@ -46,18 +46,16 @@ n_packages <- length(my_packages)
 {{< figure src="a-plot-1.png" alt="" caption="A plot" >}}
 
 
+## Footnotes
 
----
+This is a footnote in `^[inline format]` as used by [pandoc](https://pandoc.org/MANUAL.html#footnotes) but not supported by [Hugo's Goldmark](https://gohugo.io/getting-started/configuration-markup/#goldmark) ^[Hello there].  
 
-**This is bold text**
+Here's a reference-style footnote [^ref].
 
-__This is bold text__
+[^ref]: Something goldmark and pandoc can agree on.
 
-*This is italic text*
 
-_This is italic text_
-
-~~Deleted text~~
+## Math and stuff
 
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 
@@ -70,25 +68,3 @@ $$
 |  text   |      text       |
 |  text   |      text       |
 |  text   |      text       |
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Some text, and some `code` and then a nice plain [link with title](https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo "title text!").
-
-and then
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-+ Very easy!
-
-vs.
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa

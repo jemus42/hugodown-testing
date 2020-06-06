@@ -1,5 +1,5 @@
 ---
-title: Rmarkdown Content
+title: RMarkdown Content
 author: jemus42
 date: '2020-06-06'
 slug: rmarkdown-content
@@ -10,11 +10,11 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: b37bced2b720acc8
+rmd_hash: 08398c4b84765473
 
 ---
 
-[**Quick link to the other post**](/posts/2020-06-06-plain/)
+[**Quick link to plain markdown post**](/posts/2020-06-06-plain/)
 
 <pre class='chroma'><span class='k'>knitr</span>::<span class='k'><a href='https://rdrr.io/pkg/knitr/man/opts_chunk.html'>opts_chunk</a></span><span class='o'>$</span><span class='nf'>set</span>(
   fig.path = <span class='s'>"plots/"</span>, <span class='c'># for leaf bundles to work nicely</span>
@@ -69,6 +69,29 @@ And some filler text between chunks.
   <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_smooth.html'>geom_smooth</a></span>(method = <span class='k'>lm</span>, se = <span class='m'>FALSE</span>)
 <img src="plots/a-plot-1.png" width="95%" style="display: block; margin: auto;" /></pre>
 
+Shortcodes
+----------
+
+Inline
+------
+
+Inline shortcode without tweaks: Hello {{&lt; pkg "hugodown" &gt;}}.
+
+Using `blogdown::shortcode` is not well suited here in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think.
+
+Block-level
+-----------
+
+Here's a figure shortcode:
+
+{{&lt; figure src="plots/a-plot-1.png" alt=\"\" caption=\"\" &gt;}}
+
+The same shortcode with `blogdown::shortcode`
+
+<!--html_preserve-->
+
+{{% figure src="plots/a-plot-1.png" %}}<!--/html_preserve-->
+
 Footnotes
 ---------
 
@@ -78,6 +101,8 @@ Here's a reference-style footnote [^2].
 
 Math and stuff
 --------------
+
+(Rmd: Have not applied fixes to make it work yet)
 
 This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
 

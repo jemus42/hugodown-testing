@@ -18,17 +18,17 @@ ignoreFiles = [
   
   custom_css = ["css/syntax-monokai.css"]
   
-
+# Copied primarily from my blog
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.highlight]
-    codeFences = true
+    # codeFences = true
     guessSyntax = true
-    hl_Lines = ""
+    # hl_Lines = ""
     lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
+    lineNos = true # Personal preference
+    lineNumbersInTable = true # Personal preference when the above is true
+    noClasses = false # Double negativ, but: Using classes is imperative
     tabWidth = 2
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -45,7 +45,7 @@ ignoreFiles = [
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = true
+      unsafe = true # Imperative for e.g. htmlwidgets / inline-HTML
       xHTML = false
     [markup.tableOfContents]
       endLevel = 3
