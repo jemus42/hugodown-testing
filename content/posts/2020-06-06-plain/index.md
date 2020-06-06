@@ -1,6 +1,6 @@
 ---
 date: "2017-01-08"
-title: "Theme Demo"
+title: "Plain Markdown Content"
 description: "The post demonstrates features of the coder theme."
 math: true
 series:
