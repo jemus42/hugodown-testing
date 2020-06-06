@@ -11,7 +11,9 @@ externalLink: ''
 series: []
 ---
 
-[**Quick link to plain markdown post**](/plain/)
+- [**Plain markdown post**](/plain-markdown/)
+- [**hugodown post**](/hugodown-rmarkdown/)
+<!-- - [**blogdown .Rmarkdown post**](/blogdown-rmarkdown/) -->
 
 ## Code
 

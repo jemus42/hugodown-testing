@@ -9,7 +9,9 @@ series:
   - "Hugo"
 ---
 
-[**Quick link to the RMarkdown post**](/posts/rmarkdown-content/)
+<!--- [**Plain markdown post**](/plain/)-->
+- [**hugodown post**](/hugodown-rmarkdown/)
+- [**blogdown .Rmarkdown post**](/blogdown-rmarkdown/)
 
 ## Code
 

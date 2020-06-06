@@ -3,18 +3,19 @@ title: Hugodown Rmd
 author: jemus42
 date: '2020-06-06'
 slug: hugodown-rmarkdown
-categories: ["Rmarkdown", "hugodown"]
+categories: ["Rmd", "hugodown"]
 tags: []
 description: ''
 draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: 2fe7b984e75a7581
+rmd_hash: 06c33a110d994676
 
 ---
 
-[**Quick link to plain markdown post**](/plain/)
+-   [**Plain markdown post**](/plain-markdown/) <!-- - [**hugodown post**](/hugodown-rmarkdown/) -->
+-   [**blogdown .Rmarkdown post**](/blogdown-rmarkdown/)
 
 Code
 ----
