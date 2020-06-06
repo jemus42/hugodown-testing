@@ -63,6 +63,18 @@ ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
   geom_smooth(method = lm, se = FALSE)
 ```
 
+### Table
+
+```{r a-table}
+library(dplyr)
+sessioninfo::session_info()$packages %>%
+  as_tibble() %>%
+  filter(package %in% c("hugodown", "dplyr", "ggplot2")) %>% 
+  select(package, loadedversion, source) %>%
+  knitr::kable(caption = "A neato little table")
+```
+
+
 ## Shortcodes
 
 ## Inline
@@ -105,3 +117,17 @@ $$
 |  text   |      text       |
 |  text   |      text       |
 |  text   |      text       |
+
+
+## Session Info
+
+<details>
+<summary>Session Info</summary>
+
+```{r sessioninfo}
+sessioninfo::session_info()$packages
+```
+
+</details>
+
+
