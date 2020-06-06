@@ -1,0 +1,80 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Testing Hugodown Things"
+
+theme = "hugo-coder"
+
+ignoreFiles = [
+  "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$",  # Generally recommended settings
+  "\\.knit\\.md$", "\\.utf8\\.md$", "\\.tmp\\.html$" # Knitr temp files just in case
+  ]
+
+# For package shortcode (configurability++;)
+# pkg_format = "<i class='fas fa-box'></i> {%s}"
+[params]
+  pkg_format = "{%s}"
+  pkg_icon_cran = "<i class='fab fa-r-project'></i>"
+  pkg_icon_git = "<i class='fab fa-git-alt'></i>"
+  
+  custom_css = ["css/syntax-monokai.css"]
+  
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    tabWidth = 2
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+    [markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/johndoe/"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = 6
+    url = "https://myhugosite.com/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
