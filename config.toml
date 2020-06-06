@@ -9,16 +9,19 @@ ignoreFiles = [
   "\\.knit\\.md$", "\\.utf8\\.md$", "\\.tmp\\.html$" # Knitr temp files just in case
   ]
 
+[permalinks]
+  posts = "/:slug/"
+
 [params]
   # For package shortcode (configurability++;)
   pkg_format = "{%s}"
   pkg_icon_cran = "<i class='fab fa-r-project'></i>"
   pkg_icon_git = "<i class='fab fa-git-alt'></i>"
-  
+
   # Light theme + dark code background for illustration purposes
   custom_css = ["css/syntax-monokai.css"]
   colorscheme = "light"
-  
+
 # Copied primarily from my blog
 [markup]
   defaultMarkdownHandler = "goldmark"

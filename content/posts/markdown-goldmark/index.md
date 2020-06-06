@@ -1,6 +1,7 @@
 ---
 date: "2017-01-08"
 title: "Plain Markdown Content"
+slug: "plain-markdown"
 description: "The post demonstrates features of the coder theme."
 math: true
 series:

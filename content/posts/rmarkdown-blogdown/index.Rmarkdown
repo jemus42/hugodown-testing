@@ -1,18 +1,17 @@
 ---
-title: RMarkdown Content
+title: Blogdown Rmd
 author: jemus42
 date: '2020-06-06'
-slug: rmarkdown-content
-categories: ["Rmarkdown"]
+slug: blogdown-rmarkdown
+categories: ["Rmarkdown", "blogdown", ".Rmarkdown"]
 tags: []
 description: ''
 draft: no
 externalLink: ''
 series: []
-output: hugodown::hugo_document
 ---
 
-[**Quick link to plain markdown post**](/posts/2020-06-06-plain/)
+[**Quick link to plain markdown post**](/plain/)
 
 ## Code
 

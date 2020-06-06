@@ -11,5 +11,6 @@ The idea is to have a quick and easy way to see if [hugodown](https://github.com
 The blog is auto-deployed to netlify:
 
 - Site: https://hugodown-testing.netlify.app/
-- Rmarkdown content testing: https://hugodown-testing.netlify.app/posts/rmarkdown-content/
-- Plain markdown content: https://hugodown-testing.netlify.app/posts/2020-06-06-plain/
+- blogdown using `.Rmarkdown`: https://hugodown-testing.netlify.app/blogdown-rmarkdown/
+- hugodown Rmd: https://hugodown-testing.netlify.app/hugodown-rmarkdown/
+- Plain markdown content: https://hugodown-testing.netlify.app/plain-markdown/
