@@ -10,12 +10,16 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: 06c33a110d994676
+rmd_hash: 2dd2321e2c000784
 
 ---
 
--   [**Plain markdown post**](/plain-markdown/) <!-- - [**hugodown post**](/hugodown-rmarkdown/) -->
--   [**blogdown .Rmarkdown post**](/blogdown-rmarkdown/)
+| Format                 | Plain Markdown  | Hugodown .Rmd         | Blogdown .Rmarkdown   |
+|------------------------|-----------------|-----------------------|-----------------------|
+| Live Post              | [here](md-post) | [here](hugodown-post) | [here](blogdown-post) |
+| Source HTML            | [here](md-html) | [here](hugodown-html) | [here](blogdown-html) |
+| Source .Rmd/.Rmarkdown |                 | [here](hugodown-rmd)  | [here](blogdown-rmd)  |
+| Source Markdown        | [here](md-md)   | [here](hugodown-md)   | [here](blogdown-md)   |
 
 Code
 ----
