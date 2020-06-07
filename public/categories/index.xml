@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Testing Hugodown Things</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Testing Hugodown Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Rmarkdown</title>
+      <link>/categories/.rmarkdown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/.rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>/categories/blogdown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugodown</title>
+      <link>/categories/hugodown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hugodown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmd</title>
+      <link>/categories/rmd/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/rmd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Testing Hugodown Things</title>
+    <link>/categories/blogdown/</link>
+    <description>Recent content in blogdown on Testing Hugodown Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogdown Rmd</title>
+      <link>/blogdown-rmarkdown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogdown-rmarkdown/</guid>
+      <description>Plain markdown post hugodown post  Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = TRUE, cache.path = &amp;#34;post_cache/&amp;#34;, # (for leaf bundles, cache in post directory) fig.retina = 2, fig.width = 8.5, echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.align = &amp;#34;center&amp;#34;, out.width = &amp;#34;95%&amp;#34; )   This is a test of  {hugodown}  .</description>
+    </item>
+    
+  </channel>
+</rss>
