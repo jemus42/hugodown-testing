@@ -10,16 +10,16 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::hugo_document
-rmd_hash: 2dd2321e2c000784
+rmd_hash: f4fe06ee92a4f40d
 
 ---
 
-| Format                 | Plain Markdown  | Hugodown .Rmd         | Blogdown .Rmarkdown   |
-|------------------------|-----------------|-----------------------|-----------------------|
-| Live Post              | [here](md-post) | [here](hugodown-post) | [here](blogdown-post) |
-| Source HTML            | [here](md-html) | [here](hugodown-html) | [here](blogdown-html) |
-| Source .Rmd/.Rmarkdown |                 | [here](hugodown-rmd)  | [here](blogdown-rmd)  |
-| Source Markdown        | [here](md-md)   | [here](hugodown-md)   | [here](blogdown-md)   |
+| Format                 | Plain Markdown                                                                                           | Hugodown .Rmd                                                                                              | Blogdown .Rmarkdown                                                                                              |
+|------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Live Post              | [here](/plain-markdown/)                                                                                 | [here](/hugodown-rmarkdown/)                                                                               | [here](/blogdown-rmarkdown/)                                                                                     |
+| Source HTML            | [here](https://github.com/jemus42/hugodown-testing/blob/master/public/plain-markdown/index.html)         | [here](https://github.com/jemus42/hugodown-testing/blob/master/public/hugodown-rmarkdown/index.html)       | [here](https://github.com/jemus42/hugodown-testing/blob/master/public/blogdown-rmarkdown/index.html)             |
+| Source .Rmd/.Rmarkdown |                                                                                                          | [here](https://github.com/jemus42/hugodown-testing/blob/master/content/posts/rmarkdown-hugodown/index.Rmd) | [here](https://github.com/jemus42/hugodown-testing/blob/master/content/posts/rmarkdown-blogdown/index.Rmarkdown) |
+| Source Markdown        | [here](https://github.com/jemus42/hugodown-testing/blob/master/content/posts/markdown-goldmark/index.md) | [here](https://github.com/jemus42/hugodown-testing/blob/master/content/posts/rmarkdown-hugodown/index.md)  | [here](https://github.com/jemus42/hugodown-testing/blob/master/content/posts/rmarkdown-blogdown/index.markdown)  |
 
 Code
 ----

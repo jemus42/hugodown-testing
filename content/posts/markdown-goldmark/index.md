@@ -11,15 +11,15 @@ series:
 
 | Format                 | Plain Markdown  | Hugodown .Rmd         | Blogdown .Rmarkdown   |
 |------------------------|-----------------|-----------------------|-----------------------|
-| Live Post              | [here](md-post) | [here](hugodown-post) | [here](blogdown-post) |
-| Source HTML            | [here](md-html) | [here](hugodown-html) | [here](blogdown-html) |
-| Source .Rmd/.Rmarkdown |                 | [here](hugodown-rmd)  | [here](blogdown-rmd)  |
-| Source Markdown        | [here](md-md)   | [here](hugodown-md)   | [here](blogdown-md)   |
+| Live Post              | [here][md-post] | [here][hugodown-post] | [here][blogdown-post] |
+| Source HTML            | [here][md-html] | [here][hugodown-html] | [here][blogdown-html] |
+| Source .Rmd/.Rmarkdown |                 | [here][hugodown-rmd]  | [here][blogdown-rmd]  |
+| Source Markdown        | [here][md-md]   | [here][hugodown-md]   | [here][blogdown-md]   |
 
 
 [md-post]: /plain-markdown/
 [md-md]: https://github.com/jemus42/hugodown-testing/blob/master/content/posts/markdown-goldmark/index.md
-[md-html]: (https://github.com/jemus42/hugodown-testing/blob/master/public/plain-markdown/index.html
+[md-html]: https://github.com/jemus42/hugodown-testing/blob/master/public/plain-markdown/index.html
 
 [hugodown-post]: /hugodown-rmarkdown/
 [hugodown-html]: https://github.com/jemus42/hugodown-testing/blob/master/public/hugodown-rmarkdown/index.html
