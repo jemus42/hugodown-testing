@@ -17,7 +17,7 @@
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/blogdown-rmarkdown/</guid>
-      <description>Plain markdown post hugodown post  Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = TRUE, cache.path = &amp;#34;post_cache/&amp;#34;, # (for leaf bundles, cache in post directory) fig.retina = 2, fig.width = 8.5, echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.align = &amp;#34;center&amp;#34;, out.width = &amp;#34;95%&amp;#34; )   This is a test of  {hugodown}  .</description>
+      <description>Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = TRUE, cache.</description>
     </item>
     
   </channel>
