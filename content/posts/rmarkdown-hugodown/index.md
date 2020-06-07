@@ -9,8 +9,8 @@ description: ''
 draft: no
 externalLink: ''
 series: []
-output: hugodown::hugo_document
-rmd_hash: f4fe06ee92a4f40d
+output: hugodown::md_document
+rmd_hash: e93e74f21522ea31
 
 ---
 

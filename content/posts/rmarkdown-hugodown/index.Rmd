@@ -9,7 +9,7 @@ description: ''
 draft: no
 externalLink: ''
 series: []
-output: hugodown::hugo_document
+output: hugodown::md_document
 ---
 
 | Format                 | Plain Markdown  | Hugodown .Rmd         | Blogdown .Rmarkdown   |
