@@ -6,28 +6,9 @@
     <description>Recent content in Series on Testing Hugodown Things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hugo</title>
-      <link>/series/hugo/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/series/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>/series/theme/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/series/theme/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>goldmark on Testing Hugodown Things</title>
+    <link>/categories/goldmark/</link>
+    <description>Recent content in goldmark on Testing Hugodown Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/goldmark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plain Markdown Content</title>
+      <link>/plain-markdown/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/plain-markdown/</guid>
+      <description>Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = TRUE, cache.</description>
+    </item>
+    
+  </channel>
+</rss>

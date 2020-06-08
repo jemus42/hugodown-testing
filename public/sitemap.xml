@@ -23,12 +23,27 @@
   </url>
   
   <url>
+    <loc>/categories/goldmark/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/hugodown/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/hugodown-rmarkdown/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/md/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/plain-markdown/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,23 +68,7 @@
   </url>
   
   <url>
-    <loc>/series/hugo/</loc>
-    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/plain-markdown/</loc>
-    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/series/</loc>
-    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/theme/</loc>
-    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,12 +1,14 @@
 ---
-date: "2017-01-08"
+date: '2020-06-06'
 title: "Plain Markdown Content"
 slug: "plain-markdown"
-description: "The post demonstrates features of the coder theme."
-math: true
-series:
-  - "Theme"
-  - "Hugo"
+author: jemus42
+categories: ["md", "goldmark"]
+tags: []
+description: ''
+draft: no
+externalLink: ''
+series: []
 ---
 
 | Format                 | Plain Markdown  | Hugodown .Rmd         | Blogdown .Rmarkdown   |
