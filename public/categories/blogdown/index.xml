@@ -17,7 +17,7 @@
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/blogdown-rmarkdown/</guid>
-      <description>Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = TRUE, cache.</description>
+      <description>Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10  knitr::opts_chunk$set( fig.path = &amp;#34;plots/&amp;#34;, # for leaf bundles to work nicely cache = FALSE, fig.</description>
     </item>
     
   </channel>

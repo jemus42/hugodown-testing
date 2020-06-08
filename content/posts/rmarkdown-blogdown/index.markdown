@@ -39,8 +39,7 @@ series: []
 ```r
 knitr::opts_chunk$set(
   fig.path = "plots/", # for leaf bundles to work nicely
-  cache = TRUE,
-  cache.path = "post_cache/", # (for leaf bundles, cache in post directory)
+  cache = FALSE,
   fig.retina = 2,
   fig.width = 8.5,
   echo = TRUE,
@@ -79,9 +78,9 @@ tail(tibble::enframe(my_packages))
 ## # A tibble: 6 x 2
 ##    name value    
 ##   <int> <chr>    
-## 1   402 xts      
-## 2   403 yaml     
-## 3   404 yardstick
+## 1   402 yaml     
+## 2   403 yardstick
+## 3   404 ymlthis  
 ## 4   405 zeallot  
 ## 5   406 zip      
 ## 6   407 zoo
@@ -184,7 +183,6 @@ sessioninfo::session_info()$packages
 ##  blogdown      0.19    2020-05-22 [1] CRAN (R 4.0.0)
 ##  bookdown      0.19    2020-05-15 [1] CRAN (R 4.0.0)
 ##  cli           2.0.2   2020-02-28 [1] CRAN (R 4.0.0)
-##  codetools     0.2-16  2018-12-24 [1] CRAN (R 4.0.0)
 ##  colorspace    1.4-1   2019-03-18 [1] CRAN (R 4.0.0)
 ##  crayon        1.3.4   2017-09-16 [1] CRAN (R 4.0.0)
 ##  digest        0.6.25  2020-02-23 [1] CRAN (R 4.0.0)

@@ -38,8 +38,7 @@ series: []
 ```{r setup}
 knitr::opts_chunk$set(
   fig.path = "plots/", # for leaf bundles to work nicely
-  cache = TRUE,
-  cache.path = "post_cache/", # (for leaf bundles, cache in post directory)
+  cache = FALSE,
   fig.retina = 2,
   fig.width = 8.5,
   echo = TRUE,

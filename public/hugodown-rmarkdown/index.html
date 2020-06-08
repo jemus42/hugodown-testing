@@ -7,17 +7,17 @@
     <meta http-equiv="Content-Language" content="en">
 
     
-    <meta name="description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache.path = &#34;post_cache/&#34;, # (for leaf bundles, cache in post directory) fig.">
+    <meta name="description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig.retina = 2, fig.width = 8.5, echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.">
     <meta name="keywords" content="">
 
     
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugodown Rmd"/>
-<meta name="twitter:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache.path = &#34;post_cache/&#34;, # (for leaf bundles, cache in post directory) fig."/>
+<meta name="twitter:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig.retina = 2, fig.width = 8.5, echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig."/>
 
     <meta property="og:title" content="Hugodown Rmd" />
-<meta property="og:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache.path = &#34;post_cache/&#34;, # (for leaf bundles, cache in post directory) fig." />
+<meta property="og:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig.retina = 2, fig.width = 8.5, echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/hugodown-rmarkdown/" />
 <meta property="article:published_time" content="2020-06-06T00:00:00+00:00" />
@@ -108,7 +108,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              5-minute read
+              4-minute read
             </span>
           </div>
           <div class="categories">
@@ -164,29 +164,31 @@
   <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
   </svg></a>
   </h2>
-<pre class='chroma'><span class='k'>knitr</span>::<span class='k'><a href='https://rdrr.io/pkg/knitr/man/opts_chunk.html'>opts_chunk</a></span><span class='o'>$</span><span class='nf'>set</span>(
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>knitr</span>::<span class='k'><a href='https://rdrr.io/pkg/knitr/man/opts_chunk.html'>opts_chunk</a></span><span class='o'>$</span><span class='nf'>set</span>(
   fig.path = <span class='s'>"plots/"</span>, <span class='c'># for leaf bundles to work nicely</span>
-  cache = <span class='m'>TRUE</span>,
-  cache.path = <span class='s'>"post_cache/"</span>, <span class='c'># (for leaf bundles, cache in post directory)</span>
+  cache = <span class='m'>FALSE</span>,
   fig.retina = <span class='m'>2</span>,
   fig.width = <span class='m'>8.5</span>,
   echo = <span class='m'>TRUE</span>,
   message = <span class='m'>FALSE</span>, warning = <span class='m'>FALSE</span>, error = <span class='m'>FALSE</span>,
   fig.align = <span class='s'>"center"</span>,
   out.width = <span class='s'>"95%"</span>
-)
-</pre>
+)</code></pre>
+</div>
 <p>This is a test of {{&lt; pkg &ldquo;hugodown&rdquo; &gt;}}.</p>
 <h3 id="code-with-out-output">Code with/-out Output<a href="#code-with-out-output"><svg class="anchor-symbol" height="24" width="24" viewBox="0 -3 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M0 0h24v24H0z" fill="currentColor"></path>
   <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
   </svg></a>
   </h3>
-<pre class='chroma'><span class='k'>my_packages</span> <span class='o'>&lt;-</span> <span class='nf'>rownames</span>(<span class='nf'>installed.packages</span>())
-<span class='k'>n_packages</span> <span class='o'>&lt;-</span> <span class='nf'>length</span>(<span class='k'>my_packages</span>)
-</pre>
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>my_packages</span> <span class='o'>&lt;-</span> <span class='nf'>rownames</span>(<span class='nf'>installed.packages</span>())
+<span class='k'>n_packages</span> <span class='o'>&lt;-</span> <span class='nf'>length</span>(<span class='k'>my_packages</span>)</code></pre>
+</div>
 <p>And some filler text between chunks.</p>
-<pre class='chroma'><span class='k'>n_packages</span>
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>n_packages</span>
 <span class='c'>#&gt; [1] 407</span>
 
 <span class='nf'>tail</span>(<span class='k'>tibble</span>::<span class='nf'><a href='https://tibble.tidyverse.org/reference/enframe.html'>enframe</a></span>(<span class='k'>my_packages</span>))
@@ -198,8 +200,8 @@
 <span class='c'>#&gt; 3   404 ymlthis  </span>
 <span class='c'>#&gt; 4   405 zeallot  </span>
 <span class='c'>#&gt; 5   406 zip      </span>
-<span class='c'>#&gt; 6   407 zoo</span>
-</pre>
+<span class='c'>#&gt; 6   407 zoo</span></code></pre>
+</div>
 <h3 id="plots">Plots<a href="#plots"><svg class="anchor-symbol" height="24" width="24" viewBox="0 -3 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M0 0h24v24H0z" fill="currentColor"></path>
   <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
@@ -209,34 +211,55 @@
 <li>The entire chunk is contained in <code>&lt;pre&gt;</code> tags :(</li>
 <li>Tabular display of code with line numbers is set in config, but not applied here</li>
 </ul>
-<pre class='chroma'><span class='nf'>library</span>(<span class='k'><a href='https://ggplot2.tidyverse.org/reference'>ggplot2</a></span>)
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://ggplot2.tidyverse.org/reference'>ggplot2</a></span>)
 
 <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='k'>mtcars</span>, <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(x = <span class='k'>wt</span>, y = <span class='k'>mpg</span>, color = <span class='nf'>factor</span>(<span class='k'>cyl</span>))) <span class='o'>+</span>
   <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span>() <span class='o'>+</span>
   <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_smooth.html'>geom_smooth</a></span>(method = <span class='k'>lm</span>, se = <span class='m'>FALSE</span>)
-<img src="plots/a-plot-1.png" width="95%" style="display: block; margin: auto;" /></pre>
+</code></pre>
+<p><img src="plots/a-plot-1.png" width="0.95\linewidth" style="display: block; margin: auto;" /></p>
+</div>
 <h3 id="table">Table<a href="#table"><svg class="anchor-symbol" height="24" width="24" viewBox="0 -3 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M0 0h24v24H0z" fill="currentColor"></path>
   <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
   </svg></a>
   </h3>
-<pre class='chroma'><span class='nf'>library</span>(<span class='k'><a href='https://dplyr.tidyverse.org/reference'>dplyr</a></span>)
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://dplyr.tidyverse.org/reference'>dplyr</a></span>)
 <span class='k'>sessioninfo</span>::<span class='nf'><a href='https://rdrr.io/pkg/sessioninfo/man/session_info.html'>session_info</a></span>()<span class='o'>$</span><span class='k'>packages</span> <span class='o'>%&gt;%</span>
   <span class='nf'><a href='https://tibble.tidyverse.org/reference/as_tibble.html'>as_tibble</a></span>() <span class='o'>%&gt;%</span>
   <span class='nf'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(<span class='k'>package</span> <span class='o'>%in%</span> <span class='nf'>c</span>(<span class='s'>"hugodown"</span>, <span class='s'>"dplyr"</span>, <span class='s'>"ggplot2"</span>)) <span class='o'>%&gt;%</span> 
   <span class='nf'><a href='https://dplyr.tidyverse.org/reference/select.html'>select</a></span>(<span class='k'>package</span>, <span class='k'>loadedversion</span>, <span class='k'>source</span>) <span class='o'>%&gt;%</span>
   <span class='k'>knitr</span>::<span class='nf'><a href='https://rdrr.io/pkg/knitr/man/kable.html'>kable</a></span>(caption = <span class='s'>"A neato little table"</span>)
-
-
-Table: A neato little table
-
-package    loadedversion   source                          
----------  --------------  --------------------------------
-dplyr      1.0.0           CRAN (R 4.0.0)                  
-ggplot2    3.3.1           CRAN (R 4.0.0)                  
-hugodown   0.0.0.9000      Github (r-lib/hugodown@ade05cd) 
-
-</pre>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="left">package</th>
+<th align="left">loadedversion</th>
+<th align="left">source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">dplyr</td>
+<td align="left">1.0.0</td>
+<td align="left">CRAN (R 4.0.0)</td>
+</tr>
+<tr>
+<td align="left">ggplot2</td>
+<td align="left">3.3.1</td>
+<td align="left">CRAN (R 4.0.0)</td>
+</tr>
+<tr>
+<td align="left">hugodown</td>
+<td align="left">0.0.0.9000</td>
+<td align="left">Github (<a href="mailto:r-lib/hugodown@ade05cd" class="email">r-lib/hugodown@ade05cd</a>)</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h2 id="shortcodes">Shortcodes<a href="#shortcodes"><svg class="anchor-symbol" height="24" width="24" viewBox="0 -3 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M0 0h24v24H0z" fill="currentColor"></path>
   <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
@@ -313,81 +336,65 @@ $$</p>
   </h2>
 <details>
 <summary>Session Info</summary>
-<pre class='chroma'><span class='k'>sessioninfo</span>::<span class='nf'><a href='https://rdrr.io/pkg/sessioninfo/man/session_info.html'>session_info</a></span>()<span class='o'>$</span><span class='k'>packages</span>
-<span class='c'>#&gt;  package      * version    date       lib source                              </span>
-<span class='c'>#&gt;  assertthat     0.2.1      2019-03-21 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  backports      1.1.7      2020-05-13 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  blogdown       0.19       2020-05-22 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  callr          3.4.3      2020-03-28 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  cli            2.0.2      2020-02-28 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  codetools      0.2-16     2018-12-24 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  colorspace     1.4-1      2019-03-18 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  crayon         1.3.4      2017-09-16 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  curl           4.3        2019-12-02 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  digest         0.6.25     2020-02-23 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  downlit        0.0.0.9000 2020-06-04 [1] Github (r-lib/downlit@f9eb6b4)      </span>
-<span class='c'>#&gt;  dplyr        * 1.0.0      2020-05-29 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  ellipsis       0.3.1      2020-05-15 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  evaluate       0.14       2019-05-28 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  fansi          0.4.1      2020-01-08 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  farver         2.0.3      2020-01-16 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  fs             1.4.1      2020-04-04 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  generics       0.0.2      2018-11-29 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  ggplot2      * 3.3.1      2020-05-28 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  glue           1.4.1      2020-05-13 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  gtable         0.3.0      2019-03-25 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  here           0.1        2017-05-28 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  highr          0.8        2019-03-20 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  htmltools      0.4.0      2019-10-04 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  hugodown       0.0.0.9000 2020-06-08 [1] Github (r-lib/hugodown@ade05cd)     </span>
-<span class='c'>#&gt;  janeaustenr    0.1.5      2017-06-10 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  jsonlite       1.6.1      2020-02-02 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  knitr          1.28       2020-02-06 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  labeling       0.3        2014-08-23 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  lattice        0.20-41    2020-04-02 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  lifecycle      0.2.0      2020-03-06 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  magrittr       1.5        2014-11-22 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  Matrix         1.2-18     2019-11-27 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  mgcv           1.8-31     2019-11-09 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  munsell        0.5.0      2018-06-12 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  nlme           3.1-148    2020-05-24 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  packrat        0.5.0      2018-11-14 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  pillar         1.4.4      2020-05-05 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  pkgbuild       1.0.8      2020-05-07 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  pkgconfig      2.0.3      2019-09-22 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  prettyunits    1.1.1      2020-01-24 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  processx       3.4.2      2020-02-09 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  ps             1.3.3      2020-05-08 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  purrr          0.3.4      2020-04-17 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  R6             2.4.1      2019-11-12 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  RColorBrewer   1.1-2      2014-12-07 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  Rcpp           1.0.4.6    2020-04-09 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  remotes        2.1.1      2020-02-15 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  reticulate     1.16       2020-05-27 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  rlang          0.4.6      2020-05-02 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  rmarkdown      2.2        2020-05-31 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  rprojroot      1.3-2      2018-01-03 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  rsconnect      0.8.16     2019-12-13 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  rstudioapi     0.11       2020-02-07 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  scales         1.1.1      2020-05-11 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  sessioninfo    1.1.1      2018-11-05 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  SnowballC      0.7.0      2020-04-01 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  statquotes     0.2.5      2020-05-10 [1] Github (friendly/statquotes@a452903)</span>
-<span class='c'>#&gt;  stringi        1.4.6      2020-02-17 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  stringr        1.4.0      2019-02-10 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  tibble         3.0.1      2020-04-20 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  tidyselect     1.1.0      2020-05-11 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  tidytext       0.2.4      2020-04-17 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  tokenizers     0.2.1      2018-03-29 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  utf8           1.1.4      2018-05-24 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  vctrs          0.3.1      2020-06-05 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  withr          2.2.0      2020-04-20 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  wordcloud      2.6        2018-08-24 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  xfun           0.14       2020-05-20 [1] CRAN (R 4.0.0)                      </span>
-<span class='c'>#&gt;  yaml           2.2.1      2020-02-01 [1] CRAN (R 4.0.0)                      </span>
+<div class="highlight">
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>sessioninfo</span>::<span class='nf'><a href='https://rdrr.io/pkg/sessioninfo/man/session_info.html'>session_info</a></span>()<span class='o'>$</span><span class='k'>packages</span>
+<span class='c'>#&gt;  package     * version    date       lib source                         </span>
+<span class='c'>#&gt;  assertthat    0.2.1      2019-03-21 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  backports     1.1.7      2020-05-13 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  blogdown      0.19       2020-05-22 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  cli           2.0.2      2020-02-28 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  colorspace    1.4-1      2019-03-18 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  crayon        1.3.4      2017-09-16 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  digest        0.6.25     2020-02-23 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  downlit       0.0.0.9000 2020-06-04 [1] Github (r-lib/downlit@f9eb6b4) </span>
+<span class='c'>#&gt;  dplyr       * 1.0.0      2020-05-29 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  ellipsis      0.3.1      2020-05-15 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  evaluate      0.14       2019-05-28 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  fansi         0.4.1      2020-01-08 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  farver        2.0.3      2020-01-16 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  fs            1.4.1      2020-04-04 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  generics      0.0.2      2018-11-29 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  ggplot2     * 3.3.1      2020-05-28 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  glue          1.4.1      2020-05-13 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  gtable        0.3.0      2019-03-25 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  here          0.1        2017-05-28 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  highr         0.8        2019-03-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  htmltools     0.4.0      2019-10-04 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  hugodown      0.0.0.9000 2020-06-08 [1] Github (r-lib/hugodown@ade05cd)</span>
+<span class='c'>#&gt;  jsonlite      1.6.1      2020-02-02 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  knitr         1.28       2020-02-06 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  labeling      0.3        2014-08-23 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  lattice       0.20-41    2020-04-02 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  lifecycle     0.2.0      2020-03-06 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  magrittr      1.5        2014-11-22 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  Matrix        1.2-18     2019-11-27 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  mgcv          1.8-31     2019-11-09 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  munsell       0.5.0      2018-06-12 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  nlme          3.1-148    2020-05-24 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  pillar        1.4.4      2020-05-05 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  pkgconfig     2.0.3      2019-09-22 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  purrr         0.3.4      2020-04-17 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  R6            2.4.1      2019-11-12 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  Rcpp          1.0.4.6    2020-04-09 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  reticulate    1.16       2020-05-27 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  rlang         0.4.6      2020-05-02 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  rmarkdown     2.2        2020-05-31 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  rprojroot     1.3-2      2018-01-03 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  rstudioapi    0.11       2020-02-07 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  scales        1.1.1      2020-05-11 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  sessioninfo   1.1.1      2018-11-05 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  stringi       1.4.6      2020-02-17 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  stringr       1.4.0      2019-02-10 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  tibble        3.0.1      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  tidyselect    1.1.0      2020-05-11 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  utf8          1.1.4      2018-05-24 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  vctrs         0.3.1      2020-06-05 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  withr         2.2.0      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  xfun          0.14       2020-05-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  yaml          2.2.1      2020-02-01 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt; </span>
-<span class='c'>#&gt; [1] /Library/Frameworks/R.framework/Versions/4.0/Resources/library</span>
-</pre>
+<span class='c'>#&gt; [1] /Library/Frameworks/R.framework/Versions/4.0/Resources/library</span></code></pre>
+</div>
 </details>
 <section class="footnotes" role="doc-endnotes">
 <hr>

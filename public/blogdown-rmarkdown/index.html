@@ -7,17 +7,17 @@
     <meta http-equiv="Content-Language" content="en">
 
     
-    <meta name="description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache.">
+    <meta name="description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig.">
     <meta name="keywords" content="">
 
     
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blogdown Rmd"/>
-<meta name="twitter:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache."/>
+<meta name="twitter:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig."/>
 
     <meta property="og:title" content="Blogdown Rmd" />
-<meta property="og:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10 11  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = TRUE, cache." />
+<meta property="og:description" content="Format Plain Markdown Hugodown .Rmd Blogdown .Rmarkdown     Live Post here here here   Source HTML here here here   Source .Rmd/.Rmarkdown  here here   Source Markdown here here here    Code    1 2 3 4 5 6 7 8 9 10  knitr::opts_chunk$set( fig.path = &#34;plots/&#34;, # for leaf bundles to work nicely cache = FALSE, fig." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/blogdown-rmarkdown/" />
 <meta property="article:published_time" content="2020-06-06T00:00:00+00:00" />
@@ -178,13 +178,11 @@
 </span><span class="lnt"> 8
 </span><span class="lnt"> 9
 </span><span class="lnt">10
-</span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-r" data-lang="r"><span class="n">knitr</span><span class="o">::</span><span class="n">opts_chunk</span><span class="o">$</span><span class="nf">set</span><span class="p">(</span>
   <span class="n">fig.path</span> <span class="o">=</span> <span class="s">&#34;plots/&#34;</span><span class="p">,</span> <span class="c1"># for leaf bundles to work nicely</span>
-  <span class="n">cache</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span>
-  <span class="n">cache.path</span> <span class="o">=</span> <span class="s">&#34;post_cache/&#34;</span><span class="p">,</span> <span class="c1"># (for leaf bundles, cache in post directory)</span>
+  <span class="n">cache</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">,</span>
   <span class="n">fig.retina</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span>
   <span class="n">fig.width</span> <span class="o">=</span> <span class="m">8.5</span><span class="p">,</span>
   <span class="n">echo</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">,</span>
@@ -262,9 +260,9 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">## # A tibble: 6 x 2
 ##    name value    
 ##   &lt;int&gt; &lt;chr&gt;    
-## 1   402 xts      
-## 2   403 yaml     
-## 3   404 yardstick
+## 1   402 yaml     
+## 2   403 yardstick
+## 3   404 ymlthis  
 ## 4   405 zeallot  
 ## 5   406 zip      
 ## 6   407 zoo
@@ -491,7 +489,6 @@ $$</p>
 </span><span class="lnt">49
 </span><span class="lnt">50
 </span><span class="lnt">51
-</span><span class="lnt">52
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-go" data-lang="go"><span class="err">##</span>  <span class="kn">package</span>     <span class="o">*</span> <span class="nx">version</span> <span class="nx">date</span>       <span class="nx">lib</span> <span class="nx">source</span>        
@@ -499,7 +496,6 @@ $$</p>
 <span class="err">##</span>  <span class="nx">blogdown</span>      <span class="mf">0.19</span>    <span class="mi">2020</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">22</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
 <span class="err">##</span>  <span class="nx">bookdown</span>      <span class="mf">0.19</span>    <span class="mi">2020</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">15</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
 <span class="err">##</span>  <span class="nx">cli</span>           <span class="mf">2.0.2</span>   <span class="mi">2020</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="mi">28</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
-<span class="err">##</span>  <span class="nx">codetools</span>     <span class="mf">0.2</span><span class="o">-</span><span class="mi">16</span>  <span class="mi">2018</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">24</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
 <span class="err">##</span>  <span class="nx">colorspace</span>    <span class="mf">1.4</span><span class="o">-</span><span class="mi">1</span>   <span class="mi">2019</span><span class="o">-</span><span class="mo">03</span><span class="o">-</span><span class="mi">18</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
 <span class="err">##</span>  <span class="nx">crayon</span>        <span class="mf">1.3.4</span>   <span class="mi">2017</span><span class="o">-</span><span class="mi">09</span><span class="o">-</span><span class="mi">16</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>
 <span class="err">##</span>  <span class="nx">digest</span>        <span class="mf">0.6.25</span>  <span class="mi">2020</span><span class="o">-</span><span class="mo">02</span><span class="o">-</span><span class="mi">23</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="nf">CRAN</span> <span class="p">(</span><span class="nx">R</span> <span class="mf">4.0.0</span><span class="p">)</span>

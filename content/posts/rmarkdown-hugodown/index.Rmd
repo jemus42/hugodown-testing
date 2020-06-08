@@ -39,8 +39,7 @@ output: hugodown::md_document
 ```{r setup}
 knitr::opts_chunk$set(
   fig.path = "plots/", # for leaf bundles to work nicely
-  cache = TRUE,
-  cache.path = "post_cache/", # (for leaf bundles, cache in post directory)
+  cache = FALSE,
   fig.retina = 2,
   fig.width = 8.5,
   echo = TRUE,
@@ -69,9 +68,6 @@ tail(tibble::enframe(my_packages))
 
 
 ### Plots
-
-- The entire chunk is contained in `<pre>` tags :(
-- Tabular display of code with line numbers is set in config, but not applied here
 
 ```{r a-plot}
 library(ggplot2)
