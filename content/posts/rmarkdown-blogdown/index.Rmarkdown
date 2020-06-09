@@ -65,7 +65,7 @@ n_packages
 tail(tibble::enframe(my_packages))
 ```
 
-```{r}
+```{r, message=TRUE, error=TRUE}
 library(tidyverse)
 ```
 

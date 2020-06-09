@@ -10,7 +10,7 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::md_document
-rmd_hash: edc45746f615af19
+rmd_hash: 7792f8ffb535530b
 
 ---
 
@@ -72,7 +72,15 @@ And some filler text between chunks.
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://tidyverse.tidyverse.org/reference'>tidyverse</a></span>)</code></pre>
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://tidyverse.tidyverse.org/reference'>tidyverse</a></span>)
+<span class='c'>#&gt; -- Attaching packages ---- tidyverse 1.3.0 --</span>
+<span class='c'>#&gt; v ggplot2 3.3.1     v purrr   0.3.4</span>
+<span class='c'>#&gt; v tibble  3.0.1     v dplyr   1.0.0</span>
+<span class='c'>#&gt; v tidyr   1.1.0     v stringr 1.4.0</span>
+<span class='c'>#&gt; v readr   1.3.1     v forcats 0.5.0</span>
+<span class='c'>#&gt; -- Conflicts ------- tidyverse_conflicts() --</span>
+<span class='c'>#&gt; x dplyr::filter() masks stats::filter()</span>
+<span class='c'>#&gt; x dplyr::lag()    masks stats::lag()</span></code></pre>
 
 </div>
 
