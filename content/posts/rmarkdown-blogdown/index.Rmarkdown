@@ -65,11 +65,11 @@ n_packages
 tail(tibble::enframe(my_packages))
 ```
 
+```{r}
+library(tidyverse)
+```
 
 ### Plots
-
-- The entire chunk is contained in `<pre>` tags :(
-- Tabular display of code with line numbers is set in config, but not applied here
 
 ```{r a-plot}
 library(ggplot2)

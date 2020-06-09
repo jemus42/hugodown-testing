@@ -10,7 +10,7 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::md_document
-rmd_hash: bf40bb1a50ae7d99
+rmd_hash: edc45746f615af19
 
 ---
 
@@ -70,10 +70,13 @@ And some filler text between chunks.
 
 </div>
 
-### Plots
+<div class="highlight">
 
--   The entire chunk is contained in `<pre>` tags :(
--   Tabular display of code with line numbers is set in config, but not applied here
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://tidyverse.tidyverse.org/reference'>tidyverse</a></span>)</code></pre>
+
+</div>
+
+### Plots
 
 <div class="highlight">
 
@@ -103,7 +106,7 @@ And some filler text between chunks.
 |:---------|:--------------|:------------------------------------------------------------------------------------------|
 | dplyr    | 1.0.0         | CRAN (R 4.0.0)                                                                            |
 | ggplot2  | 3.3.1         | CRAN (R 4.0.0)                                                                            |
-| hugodown | 0.0.0.9000    | Github (<a href="mailto:r-lib/hugodown@ade05cd" class="email">r-lib/hugodown@ade05cd</a>) |
+| hugodown | 0.0.0.9000    | Github (<a href="mailto:r-lib/hugodown@1d15538" class="email">r-lib/hugodown@1d15538</a>) |
 
 </div>
 
@@ -115,7 +118,7 @@ Inline
 
 Inline shortcode without tweaks: Hello {{&lt; pkg "hugodown" &gt;}}.
 
-Using `blogdown::shortcode` is not well suited in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this.
+Using [`blogdown::shortcode`](https://rdrr.io/pkg/blogdown/man/shortcode.html) is not well suited in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this.
 
 Block-level
 -----------
@@ -124,7 +127,7 @@ Here's a figure shortcode:
 
 {{&lt; figure src="plots/a-plot-1.png" alt=\"\" caption=\"\" &gt;}}
 
-The same shortcode with `blogdown::shortcode`
+The same shortcode with [`blogdown::shortcode`](https://rdrr.io/pkg/blogdown/man/shortcode.html)
 
 <!--html_preserve-->
 
@@ -167,10 +170,15 @@ Session Info
 <span class='c'>#&gt;  package     * version    date       lib source                         </span>
 <span class='c'>#&gt;  assertthat    0.2.1      2019-03-21 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  backports     1.1.7      2020-05-13 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  blob          1.2.1      2020-01-20 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  blogdown      0.19       2020-05-22 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  broom         0.5.6      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  cellranger    1.1.0      2016-07-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  cli           2.0.2      2020-02-28 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  colorspace    1.4-1      2019-03-18 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  crayon        1.3.4      2017-09-16 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  DBI           1.1.0      2019-12-15 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  dbplyr        1.4.4      2020-05-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  digest        0.6.25     2020-02-23 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  downlit       0.0.0.9000 2020-06-04 [1] Github (r-lib/downlit@f9eb6b4) </span>
 <span class='c'>#&gt;  dplyr       * 1.0.0      2020-05-29 [1] CRAN (R 4.0.0)                 </span>
@@ -178,45 +186,58 @@ Session Info
 <span class='c'>#&gt;  evaluate      0.14       2019-05-28 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  fansi         0.4.1      2020-01-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  farver        2.0.3      2020-01-16 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  forcats     * 0.5.0      2020-03-01 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  fs            1.4.1      2020-04-04 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  generics      0.0.2      2018-11-29 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  ggplot2     * 3.3.1      2020-05-28 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  glue          1.4.1      2020-05-13 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  gtable        0.3.0      2019-03-25 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  haven         2.3.1      2020-06-01 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  here          0.1        2017-05-28 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  highr         0.8        2019-03-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  hms           0.5.3      2020-01-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  htmltools     0.4.0      2019-10-04 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  hugodown      0.0.0.9000 2020-06-08 [1] Github (r-lib/hugodown@ade05cd)</span>
+<span class='c'>#&gt;  httr          1.4.1      2019-08-05 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  hugodown      0.0.0.9000 2020-06-09 [1] Github (r-lib/hugodown@1d15538)</span>
 <span class='c'>#&gt;  jsonlite      1.6.1      2020-02-02 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  knitr         1.28       2020-02-06 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  labeling      0.3        2014-08-23 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  lattice       0.20-41    2020-04-02 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  lifecycle     0.2.0      2020-03-06 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  lubridate     1.7.9      2020-06-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  magrittr      1.5        2014-11-22 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  Matrix        1.2-18     2019-11-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  mgcv          1.8-31     2019-11-09 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  modelr        0.1.8      2020-05-19 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  munsell       0.5.0      2018-06-12 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  nlme          3.1-148    2020-05-24 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  pillar        1.4.4      2020-05-05 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  pkgconfig     2.0.3      2019-09-22 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  purrr         0.3.4      2020-04-17 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  purrr       * 0.3.4      2020-04-17 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  R6            2.4.1      2019-11-12 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  Rcpp          1.0.4.6    2020-04-09 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  readr       * 1.3.1      2018-12-21 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  readxl        1.3.1      2019-03-13 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  reprex        0.3.0      2019-05-16 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  reticulate    1.16       2020-05-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rlang         0.4.6      2020-05-02 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rmarkdown     2.2        2020-05-31 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rprojroot     1.3-2      2018-01-03 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rstudioapi    0.11       2020-02-07 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  rvest         0.3.5      2019-11-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  scales        1.1.1      2020-05-11 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  sessioninfo   1.1.1      2018-11-05 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  stringi       1.4.6      2020-02-17 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  stringr       1.4.0      2019-02-10 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  tibble        3.0.1      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  stringr     * 1.4.0      2019-02-10 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  tibble      * 3.0.1      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  tidyr       * 1.1.0      2020-05-20 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  tidyselect    1.1.0      2020-05-11 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  tidyverse   * 1.3.0      2019-11-21 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  utf8          1.1.4      2018-05-24 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  vctrs         0.3.1      2020-06-05 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  withr         2.2.0      2020-04-20 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  xfun          0.14       2020-05-20 [1] CRAN (R 4.0.0)                 </span>
+<span class='c'>#&gt;  xml2          1.3.2      2020-04-23 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  yaml          2.2.1      2020-02-01 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt; </span>
 <span class='c'>#&gt; [1] /Library/Frameworks/R.framework/Versions/4.0/Resources/library</span></code></pre>

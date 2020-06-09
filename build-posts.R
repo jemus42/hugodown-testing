@@ -11,3 +11,5 @@ blogdown:::render_page(here::here("content/posts/rmarkdown-blogdown/index.Rmarkd
 
 # Render site to /public/
 hugodown::hugo_build(here::here())
+
+timestamp()

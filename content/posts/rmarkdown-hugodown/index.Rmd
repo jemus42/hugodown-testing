@@ -66,6 +66,10 @@ n_packages
 tail(tibble::enframe(my_packages))
 ```
 
+```{r}
+library(tidyverse)
+```
+
 
 ### Plots
 
