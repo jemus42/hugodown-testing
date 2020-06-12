@@ -101,6 +101,10 @@ Inline shortcode without tweaks: Hello {{< pkg "hugodown" >}}.
 
 Using `blogdown::shortcode` is not well suited in `r blogdown::shortcode("pkg", "hugodown")`-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this. 
 
+Pandoc inline raw attributes  (using `{=html}`): `{{< pkg "hugodown" >}}`{=html}
+
+Using `hugodown::shortcode` (TBI)
+
 ## Block-level
 
 Here's a figure shortcode:
@@ -110,6 +114,12 @@ Here's a figure shortcode:
 The same shortcode with `blogdown::shortcode`
 
 `r blogdown::shortcode("figure", src="plots/a-plot-1.png")`
+
+Pandoc raw attributes (using `{=html}`):
+
+```{=html}
+{{< figure src="plots/a-plot-1.png" alt="" caption="" >}}
+```
 
 ## Footnotes
 

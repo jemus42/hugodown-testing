@@ -10,7 +10,7 @@ draft: no
 externalLink: ''
 series: []
 output: hugodown::md_document
-rmd_hash: 7792f8ffb535530b
+rmd_hash: 63100b9086822bb6
 
 ---
 
@@ -55,32 +55,32 @@ And some filler text between chunks.
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span class='k'>n_packages</span>
-<span class='c'>#&gt; [1] 407</span>
+<span class='c'>#&gt; [1] 408</span>
 
 <span class='nf'>tail</span>(<span class='k'>tibble</span>::<span class='nf'><a href='https://tibble.tidyverse.org/reference/enframe.html'>enframe</a></span>(<span class='k'>my_packages</span>))
-<span class='c'>#&gt; # A tibble: 6 x 2</span>
+<span class='c'>#&gt; <span style='color: #555555;'># A tibble: 6 x 2</span></span>
 <span class='c'>#&gt;    name value    </span>
-<span class='c'>#&gt;   &lt;int&gt; &lt;chr&gt;    </span>
-<span class='c'>#&gt; 1   402 yaml     </span>
-<span class='c'>#&gt; 2   403 yardstick</span>
-<span class='c'>#&gt; 3   404 ymlthis  </span>
-<span class='c'>#&gt; 4   405 zeallot  </span>
-<span class='c'>#&gt; 5   406 zip      </span>
-<span class='c'>#&gt; 6   407 zoo</span></code></pre>
+<span class='c'>#&gt;   <span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>1</span><span>   403 yaml     </span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>2</span><span>   404 yardstick</span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>3</span><span>   405 ymlthis  </span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>4</span><span>   406 zeallot  </span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>5</span><span>   407 zip      </span></span>
+<span class='c'>#&gt; <span style='color: #555555;'>6</span><span>   408 zoo</span></span></code></pre>
 
 </div>
 
 <div class="highlight">
 
 <pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='k'><a href='https://tidyverse.tidyverse.org/reference'>tidyverse</a></span>)
-<span class='c'>#&gt; -- Attaching packages ---- tidyverse 1.3.0 --</span>
-<span class='c'>#&gt; v ggplot2 3.3.1     v purrr   0.3.4</span>
-<span class='c'>#&gt; v tibble  3.0.1     v dplyr   1.0.0</span>
-<span class='c'>#&gt; v tidyr   1.1.0     v stringr 1.4.0</span>
-<span class='c'>#&gt; v readr   1.3.1     v forcats 0.5.0</span>
-<span class='c'>#&gt; -- Conflicts ------- tidyverse_conflicts() --</span>
-<span class='c'>#&gt; x dplyr::filter() masks stats::filter()</span>
-<span class='c'>#&gt; x dplyr::lag()    masks stats::lag()</span></code></pre>
+<span class='c'>#&gt; ── <span style='font-weight: bold;'>Attaching packages</span><span> ─────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──</span></span>
+<span class='c'>#&gt; <span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>ggplot2</span><span> 3.3.1     </span><span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>purrr  </span><span> 0.3.4</span></span>
+<span class='c'>#&gt; <span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>tibble </span><span> 3.0.1     </span><span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>dplyr  </span><span> 1.0.0</span></span>
+<span class='c'>#&gt; <span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>tidyr  </span><span> 1.1.0     </span><span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>stringr</span><span> 1.4.0</span></span>
+<span class='c'>#&gt; <span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>readr  </span><span> 1.3.1     </span><span style='color: #00BB00;'>✔</span><span> </span><span style='color: #0000BB;'>forcats</span><span> 0.5.0</span></span>
+<span class='c'>#&gt; ── <span style='font-weight: bold;'>Conflicts</span><span> ────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──</span></span>
+<span class='c'>#&gt; <span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>filter()</span><span> masks </span><span style='color: #0000BB;'>stats</span><span>::filter()</span></span>
+<span class='c'>#&gt; <span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>lag()</span><span>    masks </span><span style='color: #0000BB;'>stats</span><span>::lag()</span></span></code></pre>
 
 </div>
 
@@ -94,7 +94,7 @@ And some filler text between chunks.
   <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span>() <span class='o'>+</span>
   <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_smooth.html'>geom_smooth</a></span>(method = <span class='k'>lm</span>, se = <span class='m'>FALSE</span>)
 </code></pre>
-<img src="plots/a-plot-1.png" width="0.95\linewidth" style="display: block; margin: auto;" />
+<img src="plots/a-plot-1.png" width="95%" style="display: block; margin: auto;" />
 
 </div>
 
@@ -114,7 +114,7 @@ And some filler text between chunks.
 |:---------|:--------------|:------------------------------------------------------------------------------------------|
 | dplyr    | 1.0.0         | CRAN (R 4.0.0)                                                                            |
 | ggplot2  | 3.3.1         | CRAN (R 4.0.0)                                                                            |
-| hugodown | 0.0.0.9000    | Github (<a href="mailto:r-lib/hugodown@1d15538" class="email">r-lib/hugodown@1d15538</a>) |
+| hugodown | 0.0.0.9000    | Github (<a href="mailto:r-lib/hugodown@0b7737a" class="email">r-lib/hugodown@0b7737a</a>) |
 
 </div>
 
@@ -128,6 +128,10 @@ Inline shortcode without tweaks: Hello {{&lt; pkg "hugodown" &gt;}}.
 
 Using [`blogdown::shortcode`](https://rdrr.io/pkg/blogdown/man/shortcode.html) is not well suited in <!--html_preserve-->{{% pkg "hugodown" %}}<!--/html_preserve-->-land I think, but that's not really hugodown's fault. The html-preserving comments are inserted with newlines, which might explain this.
 
+Pandoc inline raw attributes (using `{=html}`): {{< pkg "hugodown" >}}
+
+Using `hugodown::shortcode` (TBI)
+
 Block-level
 -----------
 
@@ -140,6 +144,10 @@ The same shortcode with [`blogdown::shortcode`](https://rdrr.io/pkg/blogdown/man
 <!--html_preserve-->
 
 {{% figure src="plots/a-plot-1.png" %}}<!--/html_preserve-->
+
+Pandoc raw attributes (using `{=html}`):
+
+{{< figure src="plots/a-plot-1.png" alt="" caption="" >}}
 
 Footnotes
 ---------
@@ -188,7 +196,7 @@ Session Info
 <span class='c'>#&gt;  DBI           1.1.0      2019-12-15 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  dbplyr        1.4.4      2020-05-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  digest        0.6.25     2020-02-23 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  downlit       0.0.0.9000 2020-06-04 [1] Github (r-lib/downlit@f9eb6b4) </span>
+<span class='c'>#&gt;  downlit       0.0.0.9000 2020-06-10 [1] Github (r-lib/downlit@df5a457) </span>
 <span class='c'>#&gt;  dplyr       * 1.0.0      2020-05-29 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  ellipsis      0.3.1      2020-05-15 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  evaluate      0.14       2019-05-28 [1] CRAN (R 4.0.0)                 </span>
@@ -201,12 +209,11 @@ Session Info
 <span class='c'>#&gt;  glue          1.4.1      2020-05-13 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  gtable        0.3.0      2019-03-25 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  haven         2.3.1      2020-06-01 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  here          0.1        2017-05-28 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  highr         0.8        2019-03-20 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  hms           0.5.3      2020-01-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  htmltools     0.4.0      2019-10-04 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  httr          1.4.1      2019-08-05 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  hugodown      0.0.0.9000 2020-06-09 [1] Github (r-lib/hugodown@1d15538)</span>
+<span class='c'>#&gt;  hugodown      0.0.0.9000 2020-06-11 [1] Github (r-lib/hugodown@0b7737a)</span>
 <span class='c'>#&gt;  jsonlite      1.6.1      2020-02-02 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  knitr         1.28       2020-02-06 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  labeling      0.3        2014-08-23 [1] CRAN (R 4.0.0)                 </span>
@@ -230,7 +237,6 @@ Session Info
 <span class='c'>#&gt;  reticulate    1.16       2020-05-27 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rlang         0.4.6      2020-05-02 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rmarkdown     2.2        2020-05-31 [1] CRAN (R 4.0.0)                 </span>
-<span class='c'>#&gt;  rprojroot     1.3-2      2018-01-03 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rstudioapi    0.11       2020-02-07 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  rvest         0.3.5      2019-11-08 [1] CRAN (R 4.0.0)                 </span>
 <span class='c'>#&gt;  scales        1.1.1      2020-05-11 [1] CRAN (R 4.0.0)                 </span>
